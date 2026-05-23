@@ -27,8 +27,6 @@ Cart Micro-interaction — Scale bounce animation on cart click
 
 Add to Cart — Button turns green + live cart count badge update
 
-.
-
 📁 Project Structure
 
 foodorax/
