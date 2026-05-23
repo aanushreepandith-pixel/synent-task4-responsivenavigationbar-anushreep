@@ -1,5 +1,7 @@
 # **synent-task4-responsivenavigationbar-anushreep**
+
 Responsive Navigation Bar
+
 🔥 FoodoraX — Food Delivery Website
 A fully responsive, dark-themed food delivery website with a smooth animated navigation bar. Built with pure HTML, CSS, and JavaScript — no frameworks required.
 
@@ -29,7 +31,7 @@ Add to Cart — Button turns green + live cart count badge update
 
 📁 Project Structure
 
-swiftbite/
+foodorax/
 
  ├── index.html      → Page structure & content
  
