@@ -1,5 +1,5 @@
 /* ==============================================
-   SwiftBite – Navigation JavaScript
+   FoodoraX – Navigation JavaScript
    Features:
    1. Hamburger toggle (open / close mobile menu)
    2. Close menu when a nav link is clicked
