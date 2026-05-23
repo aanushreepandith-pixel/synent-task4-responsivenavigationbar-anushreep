@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FoodoraX – Food Delivery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <span class="logo-icon">🔥</span>
+        <span class="logo-text">Food<span class="accent">oraX</span></span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#offers" class="nav-link">Offers</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Cart <span class="cart-count">3</span></button>
+          <button class="btn-order">Order Now</button>
+        </div>
+      </nav>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-badge">🚀 Free delivery on orders over ₹299</div>
+    <h1 class="hero-title">Crave It.<br><span class="accent">Get It.</span> Fast.</h1>
+    <p class="hero-sub">Hot meals from 200+ restaurants delivered to your door in under 30 minutes.</p>
+    <div class="hero-search">
+      <input type="text" placeholder="Enter your delivery address…" />
+      <button>Find Food</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><strong>50K+</strong><span>Happy Customers</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><strong>200+</strong><span>Restaurants</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><strong>25 min</strong><span>Avg. Delivery</span></div>
+    </div>
+  </section>
+
+  <!-- ========== CATEGORIES ========== -->
+  <section class="categories" id="menu">
+    <h2 class="section-title">Explore <span class="accent">Categories</span></h2>
+    <p class="section-sub">From spicy street food to gourmet desserts — we've got it all.</p>
+    <div class="cat-grid">
+      <div class="cat-card"><span>🍕</span><p>Pizza</p></div>
+      <div class="cat-card"><span>🍔</span><p>Burgers</p></div>
+      <div class="cat-card"><span>🍜</span><p>Noodles</p></div>
+      <div class="cat-card"><span>🍣</span><p>Sushi</p></div>
+      <div class="cat-card"><span>🥗</span><p>Salads</p></div>
+      <div class="cat-card"><span>🍰</span><p>Desserts</p></div>
+      <div class="cat-card"><span>🥤</span><p>Drinks</p></div>
+      <div class="cat-card"><span>🌮</span><p>Tacos</p></div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED DISHES ========== -->
+  <section class="featured" id="offers">
+    <h2 class="section-title">Today's <span class="accent">Top Picks</span></h2>
+    <p class="section-sub">Handpicked bestsellers loved by thousands of foodies.</p>
+    <div class="dishes-grid">
+      <div class="dish-card">
+        <div class="dish-img" style="background:#1C1040;">🍕</div>
+        <div class="dish-info">
+          <h3>Margherita Magic</h3>
+          <p>Classic wood-fired pizza with fresh mozzarella & basil.</p>
+          <div class="dish-footer">
+            <span class="price">₹349</span>
+            <button class="add-btn">+ Add</button>
+          </div>
+        </div>
+      </div>
+      <div class="dish-card">
+        <div class="dish-img" style="background:#1A1030;">🍔</div>
+        <div class="dish-info">
+          <h3>Smoky BBQ Stack</h3>
+          <p>Double patty smash burger with smoky bacon & caramelised onions.</p>
+          <div class="dish-footer">
+            <span class="price">₹429</span>
+            <button class="add-btn">+ Add</button>
+          </div>
+        </div>
+      </div>
+      <div class="dish-card">
+        <div class="dish-img" style="background:#0D2620;">🥗</div>
+        <div class="dish-info">
+          <h3>Garden Power Bowl</h3>
+          <p>Quinoa, roasted veggies, avocado & tahini dressing.</p>
+          <div class="dish-footer">
+            <span class="price">₹279</span>
+            <button class="add-btn">+ Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOW IT WORKS ========== -->
+  <section class="how" id="about">
+    <h2 class="section-title">How <span class="accent">FoodoraX</span> Works</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-icon">📍</div>
+        <h3>Set Location</h3>
+        <p>Enter your address and discover restaurants near you.</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <div class="step-icon">🛒</div>
+        <h3>Choose & Order</h3>
+        <p>Browse menus, customize your order, and checkout in seconds.</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <div class="step-icon">🛵</div>
+        <h3>Fast Delivery</h3>
+        <p>Our riders bring hot food to your door in record time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact" id="contact">
+    <h2 class="section-title">Get in <span class="accent">Touch</span></h2>
+    <p class="section-sub">Questions, feedback, or partnerships? We'd love to hear from you.</p>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i> +91 1234567890</p>
+        <p><i class="fas fa-envelope"></i> hello@foodorax.in</p>
+        <p><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</p>
+      </div>
+      <div class="contact-form">
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Your Message"></textarea>
+        <button class="btn-send">Send Message</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <p>© 2026 <strong>FoodoraX</strong>. Made with ❤️ in India.</p>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
