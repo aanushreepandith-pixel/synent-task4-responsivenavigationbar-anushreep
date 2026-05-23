@@ -5,7 +5,7 @@ Responsive Navigation Bar
 🔥 FoodoraX — Food Delivery Website
 A fully responsive, dark-themed food delivery website with a smooth animated navigation bar. Built with pure HTML, CSS, and JavaScript — no frameworks required.
 
-⚙️ Features 
+⚙️ **Features** 
 
 Hamburger Toggle — Opens/closes mobile menu with .open class
 
@@ -27,7 +27,7 @@ Cart Micro-interaction — Scale bounce animation on cart click
 
 Add to Cart — Button turns green + live cart count badge update
 
-📁 Project Structure
+📁 **Project Structure**
 
 foodorax/
 
