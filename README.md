@@ -1,6 +1,4 @@
-# **synent-task4-responsivenavigationbar-anushreep**
-
-Responsive Navigation Bar
+# **Responsive Navigation Bar**
 
 🔥 **FoodoraX** — Food Delivery Website
 A fully responsive, dark-themed food delivery website with a smooth animated navigation bar. Built with pure HTML, CSS, and JavaScript — no frameworks required.
